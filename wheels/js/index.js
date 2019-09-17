@@ -1,0 +1,1 @@
+document.querySelector(".pageHeader__navigationButton").addEventListener("click",function(){document.querySelector(".pageHeader__navigation").classList.toggle("pageHeader__navigation--scroll")});
