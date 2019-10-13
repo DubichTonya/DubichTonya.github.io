@@ -647,7 +647,7 @@ p.latterComposition__name {
   margin-top: auto; }
 
 .latterComposition__buttons--main {
-  position: static;
+  position: relative;
   display: inline-block;
   width: 196px;
   padding: 20px;
@@ -668,8 +668,7 @@ p.latterComposition__name {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     border-right: 1px solid #000000;
-    border-bottom: 1px solid #000000;
-    z-index: -1; }
+    border-bottom: 1px solid #000000; }
   .latterComposition__buttons--main:hover {
     color: #798285;
     border: 1px solid #000000; }
@@ -1179,8 +1178,33 @@ p.upcomingEvents__name {
     border: none;
     border-bottom: 2px solid #000;
     background: transparent; }
+    .contact form input::-webkit-input-placeholder,
+    .contact form textarea::-webkit-input-placeholder {
+      color: #986c4f; }
+    .contact form input::-moz-placeholder,
+    .contact form textarea::-moz-placeholder {
+      color: #986c4f; }
+    .contact form input:-ms-input-placeholder,
+    .contact form textarea:-ms-input-placeholder {
+      color: #986c4f; }
+    .contact form input::-ms-input-placeholder,
+    .contact form textarea::-ms-input-placeholder {
+      color: #986c4f; }
+    .contact form input::placeholder,
+    .contact form textarea::placeholder {
+      color: #986c4f; }
   .contact form textarea {
     resize: none; }
+    .contact form textarea::-webkit-input-placeholder {
+      color: #986c4f; }
+    .contact form textarea::-moz-placeholder {
+      color: #986c4f; }
+    .contact form textarea:-ms-input-placeholder {
+      color: #986c4f; }
+    .contact form textarea::-ms-input-placeholder {
+      color: #986c4f; }
+    .contact form textarea::placeholder {
+      color: #986c4f; }
   .contact form button {
     display: block;
     font-family: "open_sansextrabold", sans-serif;
